@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit quantity" 
+        android:textSize="45dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvDispaly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1" 
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textColor="#262626"
+ 	    android:background="#b4cdcd"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+       />
+
+    <Button
+        android:id="@+id/bSub"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Subtract" 
+        android:textColor="#262626"
+    	android:background="#b4cdcd"
+    	  android:layout_marginTop="12dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/bSubmit"
+      	android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+    	android:background="#00cc00"
+    	android:textStyle="bold"
+        android:text="Submit" 
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"/>
+    
+    
+    <Button
+        android:id="@+id/bRemove"
+      	android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+    	android:background="#cc0000"
+    	android:textStyle="bold"
+        android:text="Remove Item" 
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
